@@ -1,100 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Nsovo Mkoveni | IT Graduate & Web Developer</title>
+    <title>Nsovo Mkoveni | IT Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
     <header class="navbar">
-        <div class="logo">Nsovo<span>.</span></div>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="nav-container">
 
-        <button id="themeToggle" onclick="toggleTheme()">🌙</button>
+            <a href="#home" class="logo">
+                Nsovo Mkoveni
+            </a>
+
+            <nav>
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#education">Education</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <button
+                id="theme-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Toggle dark mode"
+            >
+                🌙
+            </button>
+
+        </div>
+
     </header>
 
 
-    <!-- Hero Section -->
+    <!-- =========================================
+         HERO SECTION
+    ========================================== -->
+
     <section id="home" class="hero">
 
-        <div class="hero-content">
+        <div class="hero-container">
 
-            <p class="hero-tag">IT GRADUATE • WEB DEVELOPER • TECH ENTHUSIAST</p>
+            <div class="hero-text">
 
-            <h1>
-                Hi, I'm <span>Nsovo Mkoveni</span>
-            </h1>
+                <p class="hero-greeting">
+                    Hello, I'm
+                </p>
 
-            <h2>
-                I build practical digital solutions with technology.
-            </h2>
+                <h1>
+                    Nsovo Mkoveni
+                </h1>
 
-            <p class="hero-text">
-                Information Technology graduate with a Diploma in IT Network Management,
-                passionate about web development, networking, cybersecurity and creating
-                useful digital solutions.
-            </p>
+                <h2>
+                    Information Technology Graduate & Web Developer
+                </h2>
 
-            <div class="hero-buttons">
-                <a href="#projects" class="btn primary">View My Projects</a>
+                <p>
+                    I build practical digital solutions with technology,
+                    combining web development, networking and problem-solving
+                    skills to create useful and user-friendly applications.
+                </p>
 
-                <a href="Nsovo-Mkoveni-CvPDF.pdf"
-                   class="btn secondary"
-                   download>
-                    Download CV
-                </a>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#projects"
+                        class="btn"
+                    >
+                        View My Projects
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="btn secondary-btn"
+                    >
+                        Contact Me
+                    </a>
+
+                </div>
+
             </div>
 
-        </div>
 
-        <div class="hero-card">
+            <!-- Code Window -->
 
             <div class="code-window">
 
-                <div class="window-top">
+                <div class="code-header">
+
                     <span></span>
                     <span></span>
                     <span></span>
+
                 </div>
 
+
                 <div class="code-content">
-                    <p><span class="purple">const</span> developer = {</p>
+
+                    <p>
+                        <span class="code-purple">const</span>
+                        developer = {
+                    </p>
 
                     <p class="indent">
                         name:
-                        <span class="green">"Nsovo Mkoveni"</span>,
+                        <span class="code-green">
+                            "Nsovo Mkoveni"
+                        </span>,
                     </p>
 
                     <p class="indent">
-                        education:
-                        <span class="green">"IT Network Management"</span>,
+                        role:
+                        <span class="code-green">
+                            "IT Graduate"
+                        </span>,
                     </p>
 
                     <p class="indent">
-                        skills:
-                        <span class="green">"Web + IT + Networking"</span>,
+                        skills: [
+                    </p>
+
+                    <p class="indent-double">
+
+                        <span class="code-green">
+                            "HTML"
+                        </span>,
+
+                        <span class="code-green">
+                            "CSS"
+                        </span>,
+
+                        <span class="code-green">
+                            "JavaScript"
+                        </span>,
+
+                    </p>
+
+                    <p class="indent-double">
+
+                        <span class="code-green">
+                            "Python"
+                        </span>,
+
+                        <span class="code-green">
+                            "Networking"
+                        </span>,
+
+                    </p>
+
+                    <p class="indent-double">
+
+                        <span class="code-green">
+                            "IT Support"
+                        </span>
+
                     </p>
 
                     <p class="indent">
-                        passion:
-                        <span class="green">"Technology"</span>
+                        ]
                     </p>
 
-                    <p>};</p>
+                    <p>
+                        };
+                    </p>
+
                 </div>
 
             </div>
@@ -104,361 +195,511 @@
     </section>
 
 
-    <!-- About -->
+    <!-- =========================================
+         ABOUT SECTION
+    ========================================== -->
+
     <section id="about" class="section">
 
-        <div class="section-title">
-            <p>GET TO KNOW ME</p>
-            <h2>About Me</h2>
-        </div>
+        <div class="section-container">
 
-        <div class="about-content">
-
-            <div class="about-text">
-
-                <p>
-                    I am an Information Technology graduate with a Diploma in
-                    Information Technology Network Management from Rosebank College.
-                </p>
-
-                <p>
-                    My interests include web development, full-stack development,
-                    IT support, networking, cybersecurity, cloud computing and
-                    IT infrastructure.
-                </p>
-
-                <p>
-                    I enjoy learning by building practical projects and solving
-                    real-world problems using technology.
-                </p>
-
-            </div>
-
-            <div class="about-highlights">
-
-                <div class="highlight">
-                    <span>🎓</span>
-                    <h3>IT Graduate</h3>
-                    <p>Diploma in IT Network Management</p>
-                </div>
-
-                <div class="highlight">
-                    <span>💻</span>
-                    <h3>Developer</h3>
-                    <p>Building practical web applications</p>
-                </div>
-
-                <div class="highlight">
-                    <span>🌐</span>
-                    <h3>Networking</h3>
-                    <p>Networking and IT infrastructure</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Skills -->
-    <section id="skills" class="section skills-section">
-
-        <div class="section-title">
-            <p>WHAT I WORK WITH</p>
-            <h2>My Skills</h2>
-        </div>
-
-        <div class="skills-grid">
-
-            <div class="skill-card">
-                <div class="skill-icon">🌐</div>
-                <h3>Web Development</h3>
-                <p>HTML, CSS, JavaScript and responsive web design.</p>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon">🐍</div>
-                <h3>Python & Flask</h3>
-                <p>Building web applications and backend functionality with Python and Flask.</p>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon">🎨</div>
-                <h3>UI/UX</h3>
-                <p>Creating clean, responsive and user-friendly interfaces.</p>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon">🌐</div>
-                <h3>Networking</h3>
-                <p>Networking fundamentals, troubleshooting and Cisco networking.</p>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon">🔐</div>
-                <h3>Cybersecurity</h3>
-                <p>Interested in cybersecurity principles and secure technology solutions.</p>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon">🛠️</div>
-                <h3>IT Support</h3>
-                <p>Technical troubleshooting, problem solving and user support.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section id="projects" class="section">
-
-        <div class="section-title">
-            <p>MY WORK</p>
-            <h2>Featured Projects</h2>
-        </div>
-
-        <div class="projects-grid">
-
-
-            <!-- Netcare Project -->
-            <article class="project-card">
-
-                <div class="project-icon">🏥</div>
-
-                <div class="project-content">
-
-                    <span class="project-label">FLASK • JAVASCRIPT • CHATBOT</span>
-
-                    <h3>Netcare Patient Support Chatbot</h3>
-
-                    <p>
-                        A Flask-based patient support and healthcare service-navigation
-                        chatbot designed to help users find useful information,
-                        facilities and doctors.
-                    </p>
-
-                    <div class="project-features">
-                        <span>Multilingual</span>
-                        <span>Voice Interaction</span>
-                        <span>Facility Search</span>
-                        <span>Accessibility</span>
-                    </div>
-
-                    <div class="project-buttons">
-
-                        <a
-                            href="https://github.com/NsovoMkoveni/Netcare-Patient-Support-Chatbot"
-                            target="_blank"
-                            class="project-btn">
-                            View on GitHub →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- ContentGen Project -->
-            <article class="project-card">
-
-                <div class="project-icon">✨</div>
-
-                <div class="project-content">
-
-                    <span class="project-label">PYTHON • FLASK • JAVASCRIPT</span>
-
-                    <h3>ContentGen AI</h3>
-
-                    <p>
-                        A responsive content-generation web application where users
-                        can select a topic, content type, tone, target audience and
-                        length to create formatted content.
-                    </p>
-
-                    <div class="project-features">
-                        <span>Content Generator</span>
-                        <span>Dark Mode</span>
-                        <span>Content History</span>
-                        <span>Responsive</span>
-                    </div>
-
-                    <div class="project-buttons">
-
-                        <a
-                            href="https://github.com/NsovoMkoveni/ContentGen-AI"
-                            target="_blank"
-                            class="project-btn">
-                            View on GitHub →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- Portfolio Project -->
-            <article class="project-card">
-
-                <div class="project-icon">💼</div>
-
-                <div class="project-content">
-
-                    <span class="project-label">HTML • CSS • JAVASCRIPT</span>
-
-                    <h3>Personal Portfolio</h3>
-
-                    <p>
-                        My personal portfolio website showcasing my education,
-                        technical skills, projects and professional interests.
-                    </p>
-
-                    <div class="project-features">
-                        <span>Responsive</span>
-                        <span>Modern UI</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <div class="project-buttons">
-
-                        <a
-                            href="https://github.com/NsovoMkoveni/My-Portfolio"
-                            target="_blank"
-                            class="project-btn">
-                            View on GitHub →
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- Education -->
-    <section id="education" class="section education-section">
-
-        <div class="section-title">
-            <p>MY BACKGROUND</p>
-            <h2>Education & Certifications</h2>
-        </div>
-
-        <div class="education-grid">
-
-            <div class="education-card">
-
-                <span class="education-icon">🎓</span>
-
-                <div>
-                    <span class="education-type">DIPLOMA</span>
-
-                    <h3>Information Technology Network Management</h3>
-
-                    <p>Rosebank College</p>
-
-                </div>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <span class="education-icon">📜</span>
-
-                <div>
-
-                    <span class="education-type">CERTIFICATION</span>
-
-                    <h3>Cisco Network Design and Initial Configuration</h3>
-
-                    <p>Cisco</p>
-
-                </div>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <span class="education-icon">📜</span>
-
-                <div>
-
-                    <span class="education-type">CERTIFICATION</span>
-
-                    <h3>Introduction to IoT and Digital Transformation</h3>
-
-                    <p>Cisco</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Career Interests -->
-    <section class="section career-section">
-
-        <div class="section-title">
-            <p>WHERE I'M HEADED</p>
-            <h2>Career Interests</h2>
-        </div>
-
-        <div class="career-list">
-
-            <span>Web Development</span>
-            <span>Full Stack Development</span>
-            <span>IT Support</span>
-            <span>Network Engineering</span>
-            <span>Cybersecurity</span>
-            <span>Cloud Computing</span>
-            <span>IT Infrastructure</span>
-
-        </div>
-
-    </section>
-
-
-    <!-- Contact -->
-    <section id="contact" class="contact-section">
-
-        <div class="contact-content">
-
-            <p class="hero-tag">LET'S CONNECT</p>
-
-            <h2>Have an opportunity or project?</h2>
-
-            <p>
-                I am open to opportunities where I can grow my technical skills,
-                contribute to meaningful projects and gain practical experience.
+            <p class="section-label">
+                ABOUT ME
             </p>
 
+            <h2>
+                Who I Am
+            </h2>
+
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        I am an Information Technology graduate with a Diploma
+                        in Information Technology Network Management from
+                        Rosebank College.
+                    </p>
+
+                    <p>
+                        I enjoy creating practical technology solutions and
+                        developing websites and applications that solve
+                        real-world problems.
+                    </p>
+
+                    <p>
+                        My interests include web development, full stack
+                        development, IT support, networking, cybersecurity,
+                        cloud computing and IT infrastructure.
+                    </p>
+
+                    <p>
+                        I am continuously learning new technologies and
+                        improving my technical and problem-solving skills.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SKILLS SECTION
+    ========================================== -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-container">
+
+            <p class="section-label">
+                MY SKILLS
+            </p>
+
+            <h2>
+                Technical Skills
+            </h2>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+                        HTML, CSS, JavaScript and responsive website
+                        development.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        Programming
+                    </h3>
+
+                    <p>
+                        Python and Flask for building practical applications
+                        and web projects.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        Networking
+                    </h3>
+
+                    <p>
+                        Network addressing, troubleshooting, configuration
+                        and basic network design.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        IT Support
+                    </h3>
+
+                    <p>
+                        Technical troubleshooting, computer support and
+                        problem-solving.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        Database Fundamentals
+                    </h3>
+
+                    <p>
+                        Basic database concepts, data handling and
+                        application data management.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        UI/UX
+                    </h3>
+
+                    <p>
+                        Creating simple, responsive and user-friendly
+                        interfaces.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PROJECTS SECTION
+    ========================================== -->
+
+    <section id="projects" class="section">
+
+        <div class="section-container">
+
+            <p class="section-label">
+                MY WORK
+            </p>
+
+            <h2>
+                Featured Projects
+            </h2>
+
+
+            <div class="projects-grid">
+
+
+                <!-- Project 1 -->
+
+                <div class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Netcare Patient Support Chatbot
+                    </h3>
+
+                    <p>
+                        A Flask-based patient support and service-navigation
+                        chatbot designed to help users find healthcare
+                        information, facilities and doctors.
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <a
+                        href="https://github.com/NsovoMkoveni/Netcare-Patient-Support-Chatbot"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project →
+                    </a>
+
+                </div>
+
+
+                <!-- Project 2 -->
+
+                <div class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <h3>
+                        ContentGen AI
+                    </h3>
+
+                    <p>
+                        A web-based content generation application where
+                        users can select content type, tone, audience and
+                        length to create structured content.
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <a
+                        href="https://github.com/NsovoMkoveni/ContentGen-AI"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project →
+                    </a>
+
+                </div>
+
+
+                <!-- Project 3 -->
+
+                <div class="project-card">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Personal Portfolio
+                    </h3>
+
+                    <p>
+                        My personal developer portfolio showcasing my
+                        education, technical skills, projects and career
+                        interests.
+                    </p>
+
+
+                    <div class="project-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Responsive Design</span>
+
+                    </div>
+
+
+                    <a
+                        href="https://github.com/NsovoMkoveni/My-Portfolio"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         EDUCATION SECTION
+    ========================================== -->
+
+    <section id="education" class="section education-section">
+
+        <div class="section-container">
+
+            <p class="section-label">
+                EDUCATION
+            </p>
+
+            <h2>
+                Education & Certifications
+            </h2>
+
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    🎓
+                </div>
+
+
+                <div>
+
+                    <h3>
+                        Diploma in Information Technology Network Management
+                    </h3>
+
+                    <p class="education-school">
+                        Rosebank College
+                    </p>
+
+                    <p>
+                        Graduated in 2026.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="certifications">
+
+
+                <div class="certificate-card">
+
+                    <h3>
+                        Cisco Network Design and Initial Configuration
+                    </h3>
+
+                    <p>
+                        Cisco certification covering network design and
+                        initial network configuration concepts.
+                    </p>
+
+                </div>
+
+
+                <div class="certificate-card">
+
+                    <h3>
+                        Cisco Introduction to IoT and Digital Transformation
+                    </h3>
+
+                    <p>
+                        Cisco certification covering Internet of Things
+                        concepts and digital transformation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         CAREER INTERESTS
+    ========================================== -->
+
+    <section class="section career-section">
+
+        <div class="section-container">
+
+            <p class="section-label">
+                CAREER INTERESTS
+            </p>
+
+            <h2>
+                Areas I'm Interested In
+            </h2>
+
+
+            <div class="career-grid">
+
+                <div class="career-item">
+                    Web Development
+                </div>
+
+                <div class="career-item">
+                    Full Stack Development
+                </div>
+
+                <div class="career-item">
+                    IT Support
+                </div>
+
+                <div class="career-item">
+                    Network Engineering
+                </div>
+
+                <div class="career-item">
+                    Cybersecurity
+                </div>
+
+                <div class="career-item">
+                    Cloud Computing
+                </div>
+
+                <div class="career-item">
+                    IT Infrastructure
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         CONTACT SECTION
+    ========================================== -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-container">
+
+            <p class="section-label">
+                CONTACT
+            </p>
+
+            <h2>
+                Let's Connect
+            </h2>
+
+            <p class="contact-text">
+                I am open to opportunities where I can grow my technical
+                skills, contribute to projects and build practical
+                technology solutions.
+            </p>
+
+
             <div class="contact-buttons">
+
+
+                <!-- GitHub -->
 
                 <a
                     href="https://github.com/NsovoMkoveni"
                     target="_blank"
-                    class="btn primary">
+                    rel="noopener noreferrer"
+                    class="btn"
+                >
                     GitHub
                 </a>
 
+
+                <!-- LinkedIn -->
+
+                <a
+                    href="https://www.linkedin.com/in/nsovo-mkoveni-7070b335b"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn"
+                >
+                    LinkedIn
+                </a>
+
+
+                <!-- CV -->
+
                 <a
                     href="Nsovo-Mkoveni-CvPDF.pdf"
-                    class="btn secondary"
-                    download>
+                    download
+                    class="btn"
+                >
                     Download CV
                 </a>
 
@@ -469,21 +710,175 @@
     </section>
 
 
-    <!-- Footer -->
-    <footer>
+    <!-- =========================================
+         PORTFOLIO ASSISTANT CHATBOT
+    ========================================== -->
 
-        <p>
-            © 2026 Nsovo Mkoveni. Built with HTML, CSS & JavaScript.
-        </p>
+    <div class="chatbot">
 
-        <p>
-            IT Network Management • Web Development • Networking
-        </p>
+        <!-- Floating Chat Button -->
+
+        <button
+            id="chatbot-toggle"
+            class="chatbot-toggle"
+            type="button"
+            aria-label="Open Portfolio Assistant"
+        >
+            💬
+        </button>
+
+
+        <!-- Chatbot Window -->
+
+        <div
+            id="chatbot-window"
+            class="chatbot-window"
+        >
+
+
+            <!-- Chatbot Header -->
+
+            <div class="chatbot-header">
+
+                <div>
+
+                    <strong>
+                        Nsovo's Portfolio Assistant
+                    </strong>
+
+                    <span>
+                        Online • Ready to help
+                    </span>
+
+                </div>
+
+
+                <button
+                    id="chatbot-close"
+                    class="chatbot-close"
+                    type="button"
+                    aria-label="Close chatbot"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <!-- Chat Messages -->
+
+            <div
+                id="chatbot-messages"
+                class="chatbot-messages"
+            >
+
+                <div class="chat-message bot-message">
+
+                    👋 Hi! I'm Nsovo's Portfolio Assistant.
+
+                    <br><br>
+
+                    I can tell you about Nsovo, her skills,
+                    education, projects and career interests.
+
+                    <br><br>
+
+                    What would you like to know?
+
+                </div>
+
+            </div>
+
+
+            <!-- Suggested Questions -->
+
+            <div class="chatbot-suggestions">
+
+                <button
+                    type="button"
+                    class="suggestion"
+                >
+                    Who is Nsovo?
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion"
+                >
+                    What are her skills?
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion"
+                >
+                    Tell me about her projects
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion"
+                >
+                    What did she study?
+                </button>
+
+            </div>
+
+
+            <!-- Chat Input -->
+
+            <div class="chatbot-input-area">
+
+                <input
+                    type="text"
+                    id="chatbot-input"
+                    placeholder="Ask me something..."
+                    autocomplete="off"
+                >
+
+
+                <button
+                    id="chatbot-send"
+                    type="button"
+                >
+                    Send
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+        <div class="section-container">
+
+            <p>
+                © 2026 Nsovo Mkoveni. All Rights Reserved.
+            </p>
+
+            <p>
+                Built with HTML, CSS & JavaScript.
+            </p>
+
+        </div>
 
     </footer>
 
 
+    <!-- JavaScript -->
+
     <script src="script.js"></script>
 
 </body>
+
 </html>
