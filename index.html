@@ -18,22 +18,38 @@
 
     <header class="navbar">
 
-        <div class="logo">
-            Nsovo Mkoveni
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                Nsovo Mkoveni
+            </a>
+
+            <nav>
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#education">Education</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <button
+                id="theme-toggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Toggle dark mode"
+            >
+                🌙
+            </button>
+
         </div>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <button id="themeToggle" class="theme-toggle">
-            🌙
-        </button>
 
     </header>
 
@@ -44,35 +60,133 @@
 
     <section id="home" class="hero">
 
-        <div class="hero-content">
+        <div class="hero-container">
 
-            <p class="hero-small">
-                IT NETWORK MANAGEMENT GRADUATE
-            </p>
+            <div class="hero-text">
 
-            <h1>
-                Hello, I'm <span>Nsovo Mkoveni</span>
-            </h1>
+                <p class="hero-greeting">
+                    Hello, I'm
+                </p>
 
-            <h2>
-                Information Technology Professional
-            </h2>
+                <h1>
+                    Nsovo Mkoveni
+                </h1>
 
-            <p>
-                Diploma in Information Technology Network Management graduate
-                with an interest in networking, cybersecurity, web development,
-                cloud technologies and IT support.
-            </p>
+                <h2>
+                    Information Technology Graduate & Web Developer
+                </h2>
 
-            <div class="hero-buttons">
+                <p>
+                    I build practical digital solutions with technology,
+                    combining web development, networking and problem-solving
+                    skills to create useful and user-friendly applications.
+                </p>
 
-                <a href="#projects" class="btn">
-                    View My Projects
-                </a>
 
-                <a href="#contact" class="btn secondary-btn">
-                    Contact Me
-                </a>
+                <div class="hero-buttons">
+
+                    <a
+                        href="#projects"
+                        class="btn"
+                    >
+                        View My Projects
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="btn secondary-btn"
+                    >
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Code Window -->
+
+            <div class="code-window">
+
+                <div class="code-header">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+
+                <div class="code-content">
+
+                    <p>
+                        <span class="code-purple">const</span>
+                        developer = {
+                    </p>
+
+                    <p class="indent">
+                        name:
+                        <span class="code-green">
+                            "Nsovo Mkoveni"
+                        </span>,
+                    </p>
+
+                    <p class="indent">
+                        role:
+                        <span class="code-green">
+                            "IT Graduate"
+                        </span>,
+                    </p>
+
+                    <p class="indent">
+                        skills: [
+                    </p>
+
+                    <p class="indent-double">
+
+                        <span class="code-green">
+                            "HTML"
+                        </span>,
+
+                        <span class="code-green">
+                            "CSS"
+                        </span>,
+
+                        <span class="code-green">
+                            "JavaScript"
+                        </span>,
+
+                    </p>
+
+                    <p class="indent-double">
+
+                        <span class="code-green">
+                            "Python"
+                        </span>,
+
+                        <span class="code-green">
+                            "Networking"
+                        </span>,
+
+                    </p>
+
+                    <p class="indent-double">
+
+                        <span class="code-green">
+                            "IT Support"
+                        </span>
+
+                    </p>
+
+                    <p class="indent">
+                        ]
+                    </p>
+
+                    <p>
+                        };
+                    </p>
+
+                </div>
 
             </div>
 
@@ -87,25 +201,47 @@
 
     <section id="about" class="section">
 
-        <div class="container">
+        <div class="section-container">
 
-            <h2 class="section-title">
-                About Me
+            <p class="section-label">
+                ABOUT ME
+            </p>
+
+            <h2>
+                Who I Am
             </h2>
 
-            <p>
-                I am an Information Technology Network Management graduate
-                from Rosebank College. I have an interest in networking,
-                cybersecurity, IT support, web development and cloud
-                technologies.
-            </p>
 
-            <p>
-                I enjoy building practical projects that allow me to apply
-                what I have learned and develop my technical skills.
-                I am continuously learning and looking for opportunities
-                where I can grow within the IT industry.
-            </p>
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        I am an Information Technology graduate with a Diploma
+                        in Information Technology Network Management from
+                        Rosebank College.
+                    </p>
+
+                    <p>
+                        I enjoy creating practical technology solutions and
+                        developing websites and applications that solve
+                        real-world problems.
+                    </p>
+
+                    <p>
+                        My interests include web development, full stack
+                        development, IT support, networking, cybersecurity,
+                        cloud computing and IT infrastructure.
+                    </p>
+
+                    <p>
+                        I am continuously learning new technologies and
+                        improving my technical and problem-solving skills.
+                    </p>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -118,60 +254,101 @@
 
     <section id="skills" class="section skills-section">
 
-        <div class="container">
+        <div class="section-container">
 
-            <h2 class="section-title">
-                IT Skills
+            <p class="section-label">
+                MY SKILLS
+            </p>
+
+            <h2>
+                Technical Skills
             </h2>
+
 
             <div class="skills-grid">
 
-                <div class="skill-card">
-                    <h3>Networking</h3>
-                    <p>
-                        Network configuration, IP addressing,
-                        troubleshooting and basic network administration.
-                    </p>
-                </div>
 
                 <div class="skill-card">
-                    <h3>IT Support</h3>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
                     <p>
-                        Technical troubleshooting, computer support,
-                        software installation and user assistance.
+                        HTML, CSS, JavaScript and responsive website
+                        development.
                     </p>
+
                 </div>
 
-                <div class="skill-card">
-                    <h3>Web Development</h3>
-                    <p>
-                        HTML, CSS, JavaScript and building responsive
-                        websites.
-                    </p>
-                </div>
 
                 <div class="skill-card">
-                    <h3>Cybersecurity</h3>
+
+                    <h3>
+                        Programming
+                    </h3>
+
                     <p>
-                        Basic cybersecurity concepts, security awareness
-                        and network security fundamentals.
+                        Python and Flask for building practical applications
+                        and web projects.
                     </p>
+
                 </div>
 
-                <div class="skill-card">
-                    <h3>Database</h3>
-                    <p>
-                        Database fundamentals, data management and
-                        basic SQL concepts.
-                    </p>
-                </div>
 
                 <div class="skill-card">
-                    <h3>Tools & Technologies</h3>
+
+                    <h3>
+                        Networking
+                    </h3>
+
                     <p>
-                        GitHub, VS Code, Cisco technologies,
-                        Microsoft Office and Flask.
+                        Network addressing, troubleshooting, configuration
+                        and basic network design.
                     </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        IT Support
+                    </h3>
+
+                    <p>
+                        Technical troubleshooting, computer support and
+                        problem-solving.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        Database Fundamentals
+                    </h3>
+
+                    <p>
+                        Basic database concepts, data handling and
+                        application data management.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <h3>
+                        UI/UX
+                    </h3>
+
+                    <p>
+                        Creating simple, responsive and user-friendly
+                        interfaces.
+                    </p>
+
                 </div>
 
             </div>
@@ -187,23 +364,26 @@
 
     <section id="projects" class="section">
 
-        <div class="container">
+        <div class="section-container">
 
-            <h2 class="section-title">
-                My Projects
+            <p class="section-label">
+                MY WORK
+            </p>
+
+            <h2>
+                Featured Projects
             </h2>
+
 
             <div class="projects-grid">
 
 
-                <!-- =================================
-                     NETCARE CHATBOT
-                ================================== -->
+                <!-- Project 1 -->
 
                 <div class="project-card">
 
-                    <div class="project-icon">
-                        🤖
+                    <div class="project-number">
+                        01
                     </div>
 
                     <h3>
@@ -211,31 +391,41 @@
                     </h3>
 
                     <p>
-                        A patient support chatbot designed to provide
-                        basic information and assistance to patients
-                        through a conversational interface.
+                        A Flask-based patient support and service-navigation
+                        chatbot designed to help users find healthcare
+                        information, facilities and doctors.
                     </p>
+
+
+                    <div class="project-tags">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
 
                     <a
                         href="https://github.com/NsovoMkoveni/Netcare-Patient-Support-Chatbot"
                         target="_blank"
-                        class="project-link">
-
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
                         View Project →
-
                     </a>
 
                 </div>
 
 
-                <!-- =================================
-                     CONTENTGEN AI
-                ================================== -->
+                <!-- Project 2 -->
 
                 <div class="project-card">
 
-                    <div class="project-icon">
-                        ✨
+                    <div class="project-number">
+                        02
                     </div>
 
                     <h3>
@@ -243,31 +433,41 @@
                     </h3>
 
                     <p>
-                        An AI-powered content generation web application
-                        built with Flask. It allows users to generate
-                        different types of professional content.
+                        A web-based content generation application where
+                        users can select content type, tone, audience and
+                        length to create structured content.
                     </p>
+
+
+                    <div class="project-tags">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
 
                     <a
                         href="https://contentgen-ai-x0g0.onrender.com"
                         target="_blank"
-                        class="project-link">
-
-                        View Live Project →
-
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
+                        View Project →
                     </a>
 
                 </div>
 
 
-                <!-- =================================
-                     PERSONAL PORTFOLIO
-                ================================== -->
+                <!-- Project 3 -->
 
                 <div class="project-card">
 
-                    <div class="project-icon">
-                        💻
+                    <div class="project-number">
+                        03
                     </div>
 
                     <h3>
@@ -275,18 +475,29 @@
                     </h3>
 
                     <p>
-                        My personal IT portfolio website showcasing
-                        my skills, education, projects and professional
-                        development.
+                        My personal developer portfolio showcasing my
+                        education, technical skills, projects and career
+                        interests.
                     </p>
+
+
+                    <div class="project-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Responsive Design</span>
+
+                    </div>
+
 
                     <a
                         href="https://github.com/NsovoMkoveni/My-Portfolio"
                         target="_blank"
-                        class="project-link">
-
+                        rel="noopener noreferrer"
+                        class="project-link"
+                    >
                         View Project →
-
                     </a>
 
                 </div>
@@ -304,51 +515,72 @@
 
     <section id="education" class="section education-section">
 
-        <div class="container">
+        <div class="section-container">
 
-            <h2 class="section-title">
+            <p class="section-label">
+                EDUCATION
+            </p>
+
+            <h2>
                 Education & Certifications
             </h2>
 
+
             <div class="education-card">
 
-                <h3>
-                    Diploma in Information Technology Network Management
-                </h3>
+                <div class="education-icon">
+                    🎓
+                </div>
 
-                <p>
-                    Rosebank College
-                </p>
 
-                <p>
-                    Graduated 2026
-                </p>
+                <div>
+
+                    <h3>
+                        Diploma in Information Technology Network Management
+                    </h3>
+
+                    <p class="education-school">
+                        Rosebank College
+                    </p>
+
+                    <p>
+                        Graduated in 2026.
+                    </p>
+
+                </div>
 
             </div>
 
 
-            <div class="education-card">
-
-                <h3>
-                    Cisco Network Design and Initial Configuration
-                </h3>
-
-                <p>
-                    Cisco Networking Academy
-                </p>
-
-            </div>
+            <div class="certifications">
 
 
-            <div class="education-card">
+                <div class="certificate-card">
 
-                <h3>
-                    Cisco Introduction to IoT and Digital Transformation
-                </h3>
+                    <h3>
+                        Cisco Network Design and Initial Configuration
+                    </h3>
 
-                <p>
-                    Cisco Networking Academy
-                </p>
+                    <p>
+                        Cisco certification covering network design and
+                        initial network configuration concepts.
+                    </p>
+
+                </div>
+
+
+                <div class="certificate-card">
+
+                    <h3>
+                        Cisco Introduction to IoT and Digital Transformation
+                    </h3>
+
+                    <p>
+                        Cisco certification covering Internet of Things
+                        concepts and digital transformation.
+                    </p>
+
+                </div>
 
             </div>
 
@@ -361,46 +593,47 @@
          CAREER INTERESTS
     ========================================== -->
 
-    <section class="section">
+    <section class="section career-section">
 
-        <div class="container">
+        <div class="section-container">
 
-            <h2 class="section-title">
-                Career Interests
+            <p class="section-label">
+                CAREER INTERESTS
+            </p>
+
+            <h2>
+                Areas I'm Interested In
             </h2>
 
-            <div class="skills-grid">
 
-                <div class="skill-card">
-                    <h3>Network Engineering</h3>
-                    <p>
-                        Network infrastructure, configuration,
-                        troubleshooting and administration.
-                    </p>
+            <div class="career-grid">
+
+                <div class="career-item">
+                    Web Development
                 </div>
 
-                <div class="skill-card">
-                    <h3>Cybersecurity</h3>
-                    <p>
-                        Network security, security awareness and
-                        cybersecurity fundamentals.
-                    </p>
+                <div class="career-item">
+                    Full Stack Development
                 </div>
 
-                <div class="skill-card">
-                    <h3>Cloud Computing</h3>
-                    <p>
-                        Developing knowledge of cloud technologies
-                        and cloud-based infrastructure.
-                    </p>
+                <div class="career-item">
+                    IT Support
                 </div>
 
-                <div class="skill-card">
-                    <h3>Web Development</h3>
-                    <p>
-                        Building practical and user-friendly
-                        web applications.
-                    </p>
+                <div class="career-item">
+                    Network Engineering
+                </div>
+
+                <div class="career-item">
+                    Cybersecurity
+                </div>
+
+                <div class="career-item">
+                    Cloud Computing
+                </div>
+
+                <div class="career-item">
+                    IT Infrastructure
                 </div>
 
             </div>
@@ -416,35 +649,58 @@
 
     <section id="contact" class="section contact-section">
 
-        <div class="container">
+        <div class="section-container">
 
-            <h2 class="section-title">
-                Contact Me
-            </h2>
-
-            <p>
-                I am open to IT opportunities, internships,
-                graduate programmes and entry-level positions.
+            <p class="section-label">
+                CONTACT
             </p>
 
+            <h2>
+                Let's Connect
+            </h2>
+
+            <p class="contact-text">
+                I am open to opportunities where I can grow my technical
+                skills, contribute to projects and build practical
+                technology solutions.
+            </p>
+
+
             <div class="contact-buttons">
+
+
+                <!-- GitHub -->
 
                 <a
                     href="https://github.com/NsovoMkoveni"
                     target="_blank"
-                    class="btn">
-
+                    rel="noopener noreferrer"
+                    class="btn"
+                >
                     GitHub
-
                 </a>
+
+
+                <!-- LinkedIn -->
 
                 <a
                     href="https://www.linkedin.com/in/nsovo-mkoveni-7070b335b"
                     target="_blank"
-                    class="btn">
-
+                    rel="noopener noreferrer"
+                    class="btn"
+                >
                     LinkedIn
+                </a>
 
+
+                <!-- CV -->
+
+                <a
+                    href="Nsovo-Mkoveni-CvPDF.pdf"
+                    download
+                    class="btn"
+                >
+                    Download CV
                 </a>
 
             </div>
@@ -455,48 +711,139 @@
 
 
     <!-- =========================================
-         PORTFOLIO ASSISTANT
+         PORTFOLIO ASSISTANT CHATBOT
     ========================================== -->
 
-    <div class="portfolio-chatbot">
+    <div class="chatbot">
 
-        <button id="chatbotButton">
+        <!-- Floating Chat Button -->
+
+        <button
+            id="chatbot-toggle"
+            class="chatbot-toggle"
+            type="button"
+            aria-label="Open Portfolio Assistant"
+        >
             💬
         </button>
 
-        <div id="chatbotWindow" class="chatbot-window">
+
+        <!-- Chatbot Window -->
+
+        <div
+            id="chatbot-window"
+            class="chatbot-window"
+        >
+
+
+            <!-- Chatbot Header -->
 
             <div class="chatbot-header">
 
-                <h3>
-                    Nsovo's Portfolio Assistant
-                </h3>
+                <div>
 
-                <button id="closeChatbot">
+                    <strong>
+                        Nsovo's Portfolio Assistant
+                    </strong>
+
+                    <span>
+                        Online • Ready to help
+                    </span>
+
+                </div>
+
+
+                <button
+                    id="chatbot-close"
+                    class="chatbot-close"
+                    type="button"
+                    aria-label="Close chatbot"
+                >
                     ×
                 </button>
 
             </div>
 
-            <div id="chatMessages" class="chat-messages">
 
-                <div class="bot-message">
-                    Hello! 👋 I'm Nsovo's Portfolio Assistant.
-                    Ask me about her skills, projects, education
-                    or career interests.
+            <!-- Chat Messages -->
+
+            <div
+                id="chatbot-messages"
+                class="chatbot-messages"
+            >
+
+                <div class="chat-message bot-message">
+
+                    👋 Hi! I'm Nsovo's Portfolio Assistant.
+
+                    <br><br>
+
+                    I can tell you about Nsovo, her skills,
+                    education, projects and career interests.
+
+                    <br><br>
+
+                    What would you like to know?
+
                 </div>
 
             </div>
 
-            <div class="chat-input-area">
+
+            <!-- Suggested Questions -->
+
+            <div class="chatbot-suggestions">
+
+                <button
+                    type="button"
+                    class="suggestion"
+                >
+                    Who is Nsovo?
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion"
+                >
+                    What are her skills?
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion"
+                >
+                    Tell me about her projects
+                </button>
+
+
+                <button
+                    type="button"
+                    class="suggestion"
+                >
+                    What did she study?
+                </button>
+
+            </div>
+
+
+            <!-- Chat Input -->
+
+            <div class="chatbot-input-area">
 
                 <input
                     type="text"
-                    id="chatInput"
+                    id="chatbot-input"
                     placeholder="Ask me something..."
+                    autocomplete="off"
                 >
 
-                <button id="sendChat">
+
+                <button
+                    id="chatbot-send"
+                    type="button"
+                >
                     Send
                 </button>
 
@@ -511,18 +858,24 @@
          FOOTER
     ========================================== -->
 
-    <footer>
+    <footer class="footer">
 
-        <p>
-            © 2026 Nsovo Mkoveni. All Rights Reserved.
-        </p>
+        <div class="section-container">
+
+            <p>
+                © 2026 Nsovo Mkoveni. All Rights Reserved.
+            </p>
+
+            <p>
+                Built with HTML, CSS & JavaScript.
+            </p>
+
+        </div>
 
     </footer>
 
 
-    <!-- =========================================
-         JAVASCRIPT
-    ========================================== -->
+    <!-- JavaScript -->
 
     <script src="script.js"></script>
 
